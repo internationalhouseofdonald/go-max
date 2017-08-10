@@ -1,6 +1,9 @@
+import '../css/reset.css';
+import '../css/bootstrap.css';
 import '../scss/styles.scss';
 import '../css/styles.css';
-import '../css/reset.css'; 
+import './bootstrap';
+import $ from './jquery';
 
 function render() {
   var div, content;
@@ -11,4 +14,8 @@ function render() {
   return div;
 }
 
-document.body.appendChild(render());
+$(document).ready(function() {
+  console.log("jquery loaded");
+});
+
+document.body.appendChild(render()); 

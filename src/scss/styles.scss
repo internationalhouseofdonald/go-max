@@ -1,7 +1,6 @@
-@import '__magic/bootswatch';
-
+@import 'font-awesome/font-awesome';
 $mycolor: #345789;
 
 .hello {
-  background: $brand-danger;
+  background: $mycolor;
 }

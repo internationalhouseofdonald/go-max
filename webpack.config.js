@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const webpack = require('webpack');
 
 module.exports = {
   entry: './src/js/main.js',
@@ -44,9 +45,18 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Go Max! - Online Portfolio',
       template: 'src/html/index.html'
     }),
-    new ExtractTextPlugin('styles.css')
-  ]
+    new ExtractTextPlugin('styles.css'),
+    new webpack.ProvidePlugin({
+        $: "jquery",
+        jQuery: "jquery"
+    })
+  ],
+  resolve: {
+        alias: {
+            jQuery: "src/js/jquery",
+            $: "src/js/jquery"
+        }
+    }
 }
