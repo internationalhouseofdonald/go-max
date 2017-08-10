@@ -1,8 +1,21 @@
-a, a:hover {
+a, a:hover, a:active, a:link, a:visited, a:focus {
   text-decoration: none;
   color: white;
 }
 
 body {
   background-color: rgba(20,20,20,1);
+}
+
+p {
+  text-indent: 20px;
+}
+
+#page_offset {
+  height: 80px;
+  content: '';
+}
+
+#hr {
+  margin: 0 auto;
 }
