@@ -18,4 +18,4 @@ $(document).ready(function() {
   console.log("jquery loaded");
 });
 
-document.body.appendChild(render()); 
+// document.body.appendChild(render()); 

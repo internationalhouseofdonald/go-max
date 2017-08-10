@@ -1,6 +1,5 @@
 @import 'font-awesome/font-awesome';
-$mycolor: #345789;
-
-.hello {
-  background: $mycolor;
-}
+@import 'variables';
+@import 'fonts';
+@import 'components';
+@import 'media_queries';

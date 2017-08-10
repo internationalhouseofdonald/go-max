@@ -2857,6 +2857,19 @@ fieldset[disabled] a.btn {
   border-color: #c12e2a;
 }
 
+.btn-outline-white {
+  color: #fff;
+  background-image: none;
+  background-color: transparent;
+  border-color: #fff;
+}
+
+.btn-outline-white:hover {
+  color: #fff;
+  background-color: #fff;
+  border-color: #fff;
+}
+
 .btn-outline-primary {
   color: #0275d8;
   background-image: none;

@@ -4,11 +4,14 @@
     <title>Go Max! - Online Portfolio</title>
   </head>
   <body>
-    <nav class="navbar navbar-toggleable-md navbar-light bg-faded pb-3">
+
+    <div id="background"></div>
+
+    <nav class="navbar navbar-toggleable-md pb-3 text-white">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <div class="fa fa-arrow-down fa-2x"></div>
+        <div class="fa fa-bars fa-2x"></div>
       </button>
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">DWM+</a>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
@@ -16,15 +19,65 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="https://www.maximumdev.biz/" target="_blank">Blog</a>
           </li>
       </div>
     </nav>
 
-    <div class="jumbotron jumbotron-fluid text-center">
+    <div class="jumbotron jumbotron-fluid text-center text-white">
       <h1>Donald Moore</h1>
-      <h2>Online Portfolio</h2>
+      <h2>Development Portfolio</h2>
+    </div>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12 text-center text-white project mb-5">
+          <div class="thumbnail">
+            <img src="../images/infusionworx.jpg" alt="Infusionworx Restaurant Website" class="mx-auto mx-sm-3 my-3">
+            <br>
+            <a href="https://www.infusionworx.com/" target="_blank">
+              <button class="btn btn-outline-white">Visit this website</button>
+            </a>
+          </div>
+          <h3>Infusionworx.com</h3>
+          <p>Infusionworx.com is an online restaurant. My goal here is to 
+            provide customers with a food delivery service at the click of a mouse. 
+            Although this project has seen a few difficulties, most of the problems
+            arise from a lack of funding. The API's are all installed, but the important 
+            ones, like Authorize.net and Google Maps have been disabled.
+          </p>
+          <h5>This Website was Created with PHP</h5>
+          <p>
+            Because this website was created with PHP, the source code is proprietary.
+            You can always view the HTML and CSS by opening up the Developer's Tools in 
+            your browser.
+          </p>
+        </div>
+        
+        <div class="col-12 text-center text-white project mb-5">
+          <div class="thumbnail">
+            <img src="../images/infusionworx.jpg" alt="Infusionworx Restaurant Website" class="mx-auto mx-sm-3 my-3">
+            <br>
+            <a href="https://www.infusionworx.com/" target="_blank">
+              <button class="btn btn-outline-white">Visit this website</button>
+            </a>
+          </div>
+          <h3>Infusionworx.com</h3>
+          <p>Infusionworx.com is an online restaurant. My goal here is to 
+            create a website that allows customers to place an order online
+            and have fresh food delivered to their home with the click of a mouse. 
+            Although this project has seen a few difficulties, most of the problems
+            arise from lack of funds. I have thought about creating a Kickstarter, but
+            as you will see later, I have also started another project called Cloudbackr that 
+            is very similar to Kickstarter.
+          </p>
+        </div>
+        
+      </div>
     </div>
 
   </body>
 </html>
+
+<!-- Just keep in mind that this can all be done in JavaScript with JSX and React  -->

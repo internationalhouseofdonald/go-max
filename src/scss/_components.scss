@@ -1,0 +1,46 @@
+#background {
+  background-image: url('../images/magic.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+  opacity: .5;
+}
+
+.navbar {
+  background-color: rgba(255,255,255,0);
+  font-family: 'sedgwick-regular';
+  .navbar-brand {
+    font-size: 3rem;
+  }
+  .nav-item {
+    font-size: 1.3rem;
+  }
+}
+
+.jumbotron {
+  background-color: rgba(255,255,255,0);
+  font-family: 'poiret';
+  text-shadow: -1px -1px 0 rgba(20,20,20,1);
+  text-shadow: 1px 1px 3 rgba(20,20,20,1);
+  // text-shadow: 2px 2px 0 rgba(20,20,20,1);
+}
+
+.fa, .fa-menu {
+  color: white;
+}
+
+.project {
+  h2, h3, h4, h5 {
+    font-family: 'poiret';
+  }
+  button {
+    font-family: sans-serif;
+  }
+  img {
+    border-radius: 4px;
+  }
+}
+

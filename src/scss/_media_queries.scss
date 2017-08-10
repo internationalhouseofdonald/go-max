@@ -1,0 +1,44 @@
+@media (min-width: 0px) {
+  .jumbotron {
+    h1 {
+      display: none;
+    }
+    h2 {
+      display: block;
+    }
+  }
+}
+
+@media (min-width: 575px) { 
+  .project {
+    .thumbnail {
+      float: left;
+    } 
+  }
+}
+
+@media (min-width: 767px) { 
+
+}
+
+@media (max-width: 991px) {
+  .jumbotron {
+    h2 {
+      font-size: 4.5rem;
+    }
+  }
+}
+
+@media (min-width: 991px) { 
+  .jumbotron {
+    h1 {
+      display: block;
+      font-size: 9.8rem;
+    }
+  }
+}
+
+@media (min-width: 1199px) { 
+
+}
+
