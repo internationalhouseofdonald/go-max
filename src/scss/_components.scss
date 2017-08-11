@@ -6,13 +6,13 @@
   height: 100%;
   position: fixed;
   z-index: -1;
-  opacity: .5;
+  opacity: .2;
 }
 
 .navbar {
-  background-color: rgba(20,20,20,.7);
-  font-family: 'sedgwick-regular';
+  background-color: rgba(20,20,20,.65);
   .navbar-brand {
+    font-family: 'sedgwick-regular';
     font-size: 3rem;
   }
   .nav-item {
@@ -23,9 +23,14 @@
 .jumbotron {
   background-color: rgba(255,255,255,0);
   font-family: 'poiret';
-  text-shadow: -1px -1px 0 rgba(20,20,20,1);
-  text-shadow: 1px 1px 3 rgba(20,20,20,1);
-  // text-shadow: 2px 2px 0 rgba(20,20,20,1);
+  text-shadow: -.5px -.5px 0 rgba(20,20,20,1),
+     .5px .5px 0 rgba(20,20,20,1), 
+     .5px -.5px 0 rgba(20,20,20,1),
+     -.5px .5px 0 rgba(20,20,20,1),
+     -1px -1px 0 rgba(20,20,20,1),
+     1px 1px 0 rgba(20,20,20,1), 
+     1px -1px 0 rgba(20,20,20,1),
+     -1px 1px 0 rgba(20,20,20,1);
 }
 
 .fa, .fa-menu {
